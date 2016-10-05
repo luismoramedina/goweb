@@ -1,14 +1,12 @@
 = Simple go web app to be deployed on Heroku
 
 == Run local
-
-export PORT=8080
-go build main.go
-go run main.go
-
-wget localhost:8080
+* export PORT=8080
+* go build main.go
+* go run main.go
+* wget localhost:8080
 
 == Godep for heroku
 
-go get -u github.com/tools/godep
-godep save ./...
+*go get -u github.com/tools/godep
+*godep save ./...
