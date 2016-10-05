@@ -8,5 +8,5 @@
 
 == Godep for heroku
 
-*go get -u github.com/tools/godep
-*godep save ./...
+* go get -u github.com/tools/godep
+* godep save ./...
