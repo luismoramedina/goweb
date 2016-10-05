@@ -1,0 +1,14 @@
+{
+  "name": "Simple web go",
+  "description": "Simple web go",
+  "keywords": [
+    "web",
+    "go",
+    "sample",
+    "heroku"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/luismoramedina/goweb",
+  "website": "http://github.com/luismoramedina/goweb",
+  "repository": "http://github.com/luismoramedina/goweb"
+}
